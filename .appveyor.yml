@@ -65,4 +65,11 @@ build_script:
   - cmake --build .
   - ctest -C Debug --output-on-failure
 
-
+artifacts:
+  - path: C:\projects\your_project\build\Release\*.dll
+    name: dlls
+  - path: C:\projects\your_project\build\Release\*.lib
+    name: libs
+  - path: C:\projects\your_project\build\Release\*.exe
+    name: executables
+    artifact_type: zip
