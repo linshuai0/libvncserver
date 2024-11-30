@@ -66,10 +66,10 @@ build_script:
   - ctest -C Debug --output-on-failure
 
 artifacts:
-  - path: C:\projects\your_project\build\Release\*.dll
+  - path: build\Release\*.dll
     name: dlls
-  - path: C:\projects\your_project\build\Release\*.lib
+  - path: build\Release\*.lib
     name: libs
-  - path: C:\projects\your_project\build\Release\*.exe
+  - path: build\Release\*.exe
     name: executables
     artifact_type: zip
