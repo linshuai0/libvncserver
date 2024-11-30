@@ -72,4 +72,3 @@ artifacts:
     name: libs
   - path: build\Release\*.exe
     name: executables
-    artifact_type: zip
